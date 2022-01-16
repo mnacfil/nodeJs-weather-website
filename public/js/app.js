@@ -1,5 +1,3 @@
-// fetch is not part of javascript, it is part of browser API that we can use on modern broser
-
 fetch('http://puzzle.mead.io/puzzle').then((response) => {
     response.json().then((data) => {
         console.log(data)
